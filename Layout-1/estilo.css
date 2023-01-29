@@ -1,0 +1,220 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navegador ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navegador ul li{
+    list-style: none;
+    padding: 15px;    
+}
+
+.navegador ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+.navegador ul li a:hover{
+color: #0170b9;
+}
+
+.navegador ul li a:active{
+    color: #0170b9;
+}
+
+hr{
+    width: 100%;
+}
+.banner{
+    padding: 8px;
+}
+
+.banner-container{
+    width: 100%;
+}
+
+.banner-container img{
+    width: 100%;
+    padding: 8px;
+}
+
+.galeria{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.galeria img{
+    justify-content: space-between;
+    width: 33%;
+    padding: 10px;
+ 
+}
+
+.sobre{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.sobre .left{
+    width: 48%;
+    padding: 8px;
+}
+.sobre img{
+    width: 100%;
+}
+
+.sobre .right{
+    width: 50%;
+    padding: 8px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.contato{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: #F2F5F7;
+    padding: 10px;
+}
+
+.contato .formulario{
+    width: 33%;
+    padding: 4px;
+}
+
+.contato .formulario h2{
+    color: black;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    padding: 4px;
+    margin-bottom: 30px;
+}
+
+.contato .localizacao{
+    width: 65%;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+.contato .localizacao h2{
+    color: black;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form{
+    border: 1px solid #e3e4e6;
+    background-color: white;
+    padding: 20px;
+}
+
+.form input{
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid #e3e4e6;
+    font-family: 'Roboto', sans-serif;
+    margin: 8px 0 8px 0;
+}
+
+form input::placeholder {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+.form label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.form textarea{
+    width: 100%;
+    height: 350px;
+}
+
+input[type=submit]{
+    width: 70px;
+    height: 30px;
+    padding: 1px 4px;
+    font-size: 14px;
+    border: 1px solid black;
+    background-color: #F2F5F7;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 320px;
+}
+
+.links ul li img{
+    width: 45px;
+    margin: 15px 5px 15px 0px;
+    vertical-align: middle;
+}
+.links ul li{
+    list-style: none;
+}
+
+.blue-bold {
+    color:#004675;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.link-logo img{
+    width: 130px;
+    margin: 30px 0;
+}
+
+footer{
+    background-color: rgb(65, 64, 64);
+    width: 100%;
+    height: 160px;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+footer nav ul{
+    list-style: none;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 12px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.direito{
+    text-align: center;
+    color: rgb(153, 151, 151);
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+
